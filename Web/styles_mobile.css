@@ -14,11 +14,18 @@ src: url(font/agencyfb.ttf);
 font-family: LemonMilk;
 src: url(font/lemon_milk/lemonmilk.otf);
 }
-
+@font-face {
+font-family: SukhumvitSet-Thin;
+src: url(font/SukhumvitSet-Thin.ttf);
+}
+@font-face {
+font-family: SukhumvitSet-Bold;
+src: url(font/SukhumvitSet-Bold.ttf);
+}
 @media screen and (max-width: 480px){
   body{
     background-color: red;
-    margin: 0;
+    margin: 100px 0 0 0;
   }
 
   #arriba{
@@ -26,6 +33,8 @@ src: url(font/lemon_milk/lemonmilk.otf);
     height: 100px;
     background-color: #568087;
     position: fixed;
+    z-index: 5;
+    top: 0;
   }
 
   #arriba p{
@@ -49,6 +58,7 @@ src: url(font/lemon_milk/lemonmilk.otf);
     height: 5px;
     background-color: white;
     margin: 6px 0 0 10px;
+    cursor: pointer;
   }
 
   .burguer{
@@ -56,6 +66,7 @@ src: url(font/lemon_milk/lemonmilk.otf);
     left: 19px;
     top: 65px;
     opacity: 0;
+
   }
 
   .burguer:checked ~ #lista{
@@ -83,14 +94,60 @@ src: url(font/lemon_milk/lemonmilk.otf);
 
   #foto_inicio{
     width: 100%;
+
   }
 
+  #div_medio{
+    width: 100%;
+    background-color: white;
+    top:650px;
+    font-family: SukhumvitSet-Thin;
 
+  }
 
+  #div_medio p{
+    margin: 0 20px;
+    text-align: justify;
+    kerning: 0.8em;
+  }
+  #div_medio h2{
+    font-family: LemonMilk;
+    margin: 0 20px;
+    color: #7C9E93;
+  }
+  #div_medio ul{
+    list-style-type: none;
+    margin:0;
 
+  }
 
+  #div_boqueria{
+    width: 100%;
+    background-color: #92B894;
+    position: relative;
+    top: 00px;
+  }
 
+  #div_boqueria p{
+    color: white;
+    font-family: sukhumvitset-thin;
+    margin: 0 20px;
+    text-align: justify;
+  }
 
+  #div_boqueria h2{
+    font-family: lemonmilk;
+    color: white;
+    margin: 0 20px;
+  }
 
+  #foto_boqueria{
+    width: 100%;
+  }
+
+  .enlaces{
+    position: absolute;
+    top: -100px;
+  }
 
 }

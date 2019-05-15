@@ -145,6 +145,126 @@ src: url(font/SukhumvitSet-Bold.ttf);
     width: 100%;
   }
 
+  #div_santantoni{
+    width: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 00px;
+  }
+
+  #div_santantoni p{
+    color: black;
+    font-family: sukhumvitset-thin;
+    margin: 0 20px;
+    text-align: justify;
+  }
+
+  #div_santantoni h2{
+    font-family: lemonmilk;
+    color: #7C9E93;
+    margin: 0 20px;
+  }
+
+  #div_galvany{
+    width: 100%;
+    background-color: #7C9E93;
+    position: relative;
+    top: 00px;
+  }
+
+  #div_galvany p{
+    color: white;
+    font-family: sukhumvitset-thin;
+    margin: 0 20px;
+    text-align: justify;
+  }
+
+  #div_galvany h2{
+    font-family: lemonmilk;
+    color: white;
+    margin: 0 20px;
+  }
+
+  #div_llibertat{
+    width: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 00px;
+  }
+
+  #div_llibertat p{
+    color: black;
+    font-family: sukhumvitset-thin;
+    margin: 0 20px;
+    text-align: justify;
+  }
+
+  #div_llibertat h2{
+    font-family: lemonmilk;
+    color: #92B894;
+    margin: 0 20px;
+  }
+
+  #div_ninot{
+    width: 100%;
+    background-color: #92B894;
+    position: relative;
+    top: 00px;
+  }
+
+  #div_ninot p{
+    color: white;
+    font-family: sukhumvitset-thin;
+    margin: 0 20px;
+    text-align: justify;
+  }
+
+  #div_ninot h2{
+    font-family: lemonmilk;
+    color: white;
+    margin: 0 20px;
+  }
+
+  #div_hostafrancs{
+    width: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 00px;
+  }
+
+  #div_hostafrancs p{
+    color: black;
+    font-family: sukhumvitset-thin;
+    margin: 0 20px;
+    text-align: justify;
+  }
+
+  #div_hostafrancs h2{
+    font-family: lemonmilk;
+    color: #7C9E93;
+    margin: 0 20px;
+  }
+
+  #div_encants{
+    width: 100%;
+    background-color: #7C9E93;
+    position: relative;
+    top: 00px;
+  }
+
+  #div_encants p{
+    color: white;
+    font-family: sukhumvitset-thin;
+    margin: 0 20px;
+    text-align: justify;
+  }
+
+  #div_encants h2{
+    font-family: lemonmilk;
+    color: white;
+    margin: 0 20px;
+  }
+
   .enlaces{
     position: absolute;
     top: -100px;

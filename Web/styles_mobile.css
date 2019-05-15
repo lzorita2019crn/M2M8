@@ -89,6 +89,11 @@ src: url(font/SukhumvitSet-Bold.ttf);
     color: white;
     list-style-type: none;
     font-family: AgencyFB;
+    padding: 10px;
+    font-size: 1.8em;
+    border-top: 3px white solid;
+    border-right: 3px white solid;
+    border-bottom: 3px white solid;
 
   }
 

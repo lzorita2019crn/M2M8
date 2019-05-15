@@ -41,16 +41,17 @@ src: url(font/SukhumvitSet-Bold.ttf);
     margin: 0;
   }
   #titulo{
-    font-size: 32px;
+    font-size: 34px;
     font-family: Hasthon;
     text-align: center;
     color: white;
   }
   #slogan{
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     text-align: center;
     font-family: Melinda;
+
 
   }
   .bar{
@@ -59,6 +60,7 @@ src: url(font/SukhumvitSet-Bold.ttf);
     background-color: white;
     margin: 6px 0 0 10px;
     cursor: pointer;
+
   }
 
   .burguer{
@@ -95,6 +97,11 @@ src: url(font/SukhumvitSet-Bold.ttf);
     border-right: 3px white solid;
     border-bottom: 3px white solid;
 
+
+  }
+
+  a{
+    text-decoration: none;
   }
 
   #foto_inicio{
@@ -147,6 +154,9 @@ src: url(font/SukhumvitSet-Bold.ttf);
   }
 
   #foto_boqueria{
+    width: 100%;
+  }
+  #foto_boqueria_2{
     width: 100%;
   }
 
@@ -230,6 +240,10 @@ src: url(font/SukhumvitSet-Bold.ttf);
     margin: 0 20px;
   }
 
+  #foto_ninot{
+    width: 100%;
+  }
+
   #div_hostafrancs{
     width: 100%;
     background-color: #FFFFFF;
@@ -250,6 +264,10 @@ src: url(font/SukhumvitSet-Bold.ttf);
     margin: 0 20px;
   }
 
+  #foto_hostafrancs{
+    width: 100%;
+  }
+
   #div_encants{
     width: 100%;
     background-color: #7C9E93;
@@ -268,6 +286,10 @@ src: url(font/SukhumvitSet-Bold.ttf);
     font-family: lemonmilk;
     color: white;
     margin: 0 20px;
+  }
+
+  #foto_encants{
+    width: 100%;
   }
 
   .enlaces{

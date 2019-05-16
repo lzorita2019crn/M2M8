@@ -106,6 +106,7 @@ src: url(font/SukhumvitSet-Bold.ttf);
 
   #foto_inicio{
     width: 100%;
+    margin-bottom: 0;
 
   }
 
@@ -180,6 +181,13 @@ src: url(font/SukhumvitSet-Bold.ttf);
     margin: 0 20px;
   }
 
+  #foto_santantoni{
+    width: 100%;
+  }
+  #foto_santantoni_2{
+    width: 100%;
+  }
+
   #div_galvany{
     width: 100%;
     background-color: #7C9E93;
@@ -200,6 +208,14 @@ src: url(font/SukhumvitSet-Bold.ttf);
     margin: 0 20px;
   }
 
+  #foto_galvany{
+    width: 100%;
+  }
+  #foto_galvany_2{
+    width: 100%;
+  }
+
+
   #div_llibertat{
     width: 100%;
     background-color: #FFFFFF;
@@ -218,6 +234,13 @@ src: url(font/SukhumvitSet-Bold.ttf);
     font-family: lemonmilk;
     color: #92B894;
     margin: 0 20px;
+  }
+
+  #foto_llibertat{
+    width: 100%;
+  }
+  #foto_llibertat_2{
+    width: 100%;
   }
 
   #div_ninot{
@@ -241,6 +264,10 @@ src: url(font/SukhumvitSet-Bold.ttf);
   }
 
   #foto_ninot{
+    width: 100%;
+  }
+
+  #foto_ninot_2{
     width: 100%;
   }
 
@@ -268,6 +295,10 @@ src: url(font/SukhumvitSet-Bold.ttf);
     width: 100%;
   }
 
+  #foto_hostafrancs_2{
+    width: 100%;
+  }
+
   #div_encants{
     width: 100%;
     background-color: #7C9E93;
@@ -290,6 +321,75 @@ src: url(font/SukhumvitSet-Bold.ttf);
 
   #foto_encants{
     width: 100%;
+  }
+
+  #foto_encants_2{
+    width: 100%;
+  }
+
+  #div_mapa{
+    background-color: white;
+    width: 100%;
+    position: relative;
+  }
+
+  #div_mapa h2{
+    color: #7C9E93;
+    font-family: lemonmilk;
+    margin: 0 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+
+  #div_mapa p{
+    color: black;
+    font-family: sukhumvitset-thin;
+    margin: 0 20px;
+    text-align: justify;
+  }
+
+  #foto_mapa{
+    width: 100%;
+  }
+
+  #div_about{
+    background-color: white;
+    width: 100%;
+  }
+
+  #div_about h2{
+    color: #7C9E93;
+    font-family: lemonmilk;
+    margin: 0 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+
+  #div_about p{
+    color: black;
+    font-family: sukhumvitset-thin;
+    margin: 0 20px;
+    text-align: justify;
+  }
+
+  #div_contact{
+    background-color: white;
+    width: 100%;
+  }
+
+  #div_contact h2{
+    color: #7C9E93;
+    font-family: lemonmilk;
+    margin: 0 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+
+  #div_contact p{
+    color: black;
+    font-family: sukhumvitset-thin;
+    margin: 0 20px;
+    text-align: justify;
   }
 
   .enlaces{

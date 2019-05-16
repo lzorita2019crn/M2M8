@@ -100,15 +100,12 @@ src: url(font/SukhumvitSet-Bold.ttf);
 
   }
 
-  a{
-    text-decoration: none;
-  }
-
   #foto_inicio{
     width: 100%;
     margin-bottom: 0;
 
   }
+
 
   #div_medio{
     width: 100%;
@@ -122,6 +119,8 @@ src: url(font/SukhumvitSet-Bold.ttf);
     margin: 0 20px;
     text-align: justify;
     kerning: 0.8em;
+    padding-bottom: 20px;
+    padding-top: 10px;
   }
   #div_medio h2{
     font-family: LemonMilk;
@@ -131,6 +130,17 @@ src: url(font/SukhumvitSet-Bold.ttf);
   #div_medio ul{
     list-style-type: none;
     margin:0;
+    padding-bottom: 20px;
+  }
+
+  a:link{
+    text-decoration: none;
+
+
+  }
+
+  #div_medio a:link{
+    text-decoration: underline;
 
   }
 

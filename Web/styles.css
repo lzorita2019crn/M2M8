@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 481px){
   body{
-    background-color: red;
+
     margin: 100px 0 0 0;
   }
 
@@ -60,21 +60,20 @@
   }
 
   #lista{
-    background-color: #7C9E93;
-    width: 100px;
-    position: absolute;
-    left: -150px;
-    transition: 0.5s;
+    /*background-color: #7C9E93;*/
     color: white;
+    position: relative;
+    top:-75px;
     list-style-type: none;
     font-family: AgencyFB;
-    padding: 10px;
+    padding-top: 15px;
     font-size: 1.8em;
-    border-top: 3px white solid;
-    border-right: 3px white solid;
-    border-bottom: 3px white solid;
 
+  }
 
+  #lista li{
+    display: inline;
+    padding-left: 50px;
   }
 
   #foto_inicio{
@@ -94,8 +93,8 @@
   }
 
   #div_medio p{
-    margin: 0 20px;
-    text-align: justify;
+    margin: 0 190px;
+    text-align: center;
     kerning: 0.8em;
     padding-bottom: 20px;
     padding-top: 10px;
@@ -107,8 +106,9 @@
   }
   #div_medio ul{
     list-style-type: none;
-    margin:0;
+    margin: 0 60px;
     padding-bottom: 20px;
+    padding-top: 5px;
   }
 
   a:link{
@@ -132,8 +132,9 @@
   #div_boqueria p{
     color: white;
     font-family: sukhumvitset-thin;
-    margin: 0 20px;
-    text-align: justify;
+    margin: 0 160px;
+    text-align: center;
+    padding: 10px;
   }
 
   #div_boqueria h2{
@@ -143,10 +144,21 @@
   }
 
   #foto_boqueria{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
   }
   #foto_boqueria_2{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+
   }
 
   #div_santantoni{
@@ -159,8 +171,9 @@
   #div_santantoni p{
     color: black;
     font-family: sukhumvitset-thin;
-    margin: 0 20px;
-    text-align: justify;
+    margin: 0 200px;
+    text-align: center;
+    padding: 10px;
   }
 
   #div_santantoni h2{
@@ -170,10 +183,20 @@
   }
 
   #foto_santantoni{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: #92B894;
+    border-style: solid;
   }
   #foto_santantoni_2{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: #92B894;
+    border-style: solid;
   }
 
   #div_galvany{
@@ -186,8 +209,9 @@
   #div_galvany p{
     color: white;
     font-family: sukhumvitset-thin;
-    margin: 0 20px;
-    text-align: justify;
+    margin: 0 160px;
+    text-align: center;
+    padding: 10px;
   }
 
   #div_galvany h2{
@@ -197,10 +221,20 @@
   }
 
   #foto_galvany{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
   }
   #foto_galvany_2{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
   }
 
 
@@ -214,8 +248,9 @@
   #div_llibertat p{
     color: black;
     font-family: sukhumvitset-thin;
-    margin: 0 20px;
-    text-align: justify;
+    margin: 0 170px;
+    text-align: center;
+    padding: 10px;
   }
 
   #div_llibertat h2{
@@ -225,10 +260,20 @@
   }
 
   #foto_llibertat{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: #7C9E93;
+    border-style: solid;
   }
   #foto_llibertat_2{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: #7C9E93;
+    border-style: solid;
   }
 
   #div_ninot{
@@ -241,8 +286,9 @@
   #div_ninot p{
     color: white;
     font-family: sukhumvitset-thin;
-    margin: 0 20px;
-    text-align: justify;
+    margin: 0 160px;
+    text-align: center;
+    padding: 10px;
   }
 
   #div_ninot h2{
@@ -252,11 +298,21 @@
   }
 
   #foto_ninot{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
   }
 
   #foto_ninot_2{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
   }
 
   #div_hostafrancs{
@@ -269,8 +325,9 @@
   #div_hostafrancs p{
     color: black;
     font-family: sukhumvitset-thin;
-    margin: 0 20px;
-    text-align: justify;
+    margin: 0 210px;
+    text-align: center;
+    padding: 10px;
   }
 
   #div_hostafrancs h2{
@@ -280,12 +337,22 @@
   }
 
   #foto_hostafrancs{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: #92B894;
+    border-style: solid;
   }
 
   #foto_hostafrancs_2{
-    width: 100%;
-  }
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: #92B894;
+    border-style: solid;
+    }
 
   #div_encants{
     width: 100%;
@@ -297,8 +364,9 @@
   #div_encants p{
     color: white;
     font-family: sukhumvitset-thin;
-    margin: 0 20px;
-    text-align: justify;
+    margin: 0 220px;
+    text-align: center;
+    padding: 10px;
   }
 
   #div_encants h2{
@@ -308,11 +376,39 @@
   }
 
   #foto_encants{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
   }
 
   #foto_encants_2{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+  }
+
+  #foto_encants_3{
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+  }
+
+  #foto_encants_4{
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
   }
 
   #div_mapa{
@@ -332,13 +428,18 @@
   #div_mapa p{
     color: black;
     font-family: sukhumvitset-thin;
-    margin: 0 20px;
-    text-align: justify;
+    margin: 0 160px;
+    text-align: center;
+    padding: 15px;
   }
 
   #foto_mapa{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 27%;
   }
+
+
 
   #div_about{
     background-color: white;
@@ -356,8 +457,8 @@
   #div_about p{
     color: black;
     font-family: sukhumvitset-thin;
-    margin: 0 20px;
-    text-align: justify;
+    margin: 0 160px;
+    text-align: center;
   }
 
   #div_contact{
@@ -376,9 +477,30 @@
   #div_contact p{
     color: black;
     font-family: sukhumvitset-thin;
-    margin: 0 20px;
+    margin: 0 160px;
     text-align: justify;
   }
+
+  #codiQR{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 7%;
+    padding: 15px;
+  }
+
+  #logoabout{
+    padding-left: 200px;
+    padding-bottom: 15px;
+    display: none;
+  }
+
+  #logodesk{
+    padding: 20px;
+    position: relative;
+    left: 42%;
+  }
+
 
   .enlaces{
     position: absolute;

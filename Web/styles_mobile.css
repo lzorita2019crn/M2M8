@@ -24,7 +24,7 @@ src: url(font/SukhumvitSet-Bold.ttf);
 }
 @media screen and (max-width: 480px){
   body{
-    background-color: red;
+    
     margin: 100px 0 0 0;
   }
 
@@ -337,6 +337,14 @@ src: url(font/SukhumvitSet-Bold.ttf);
     width: 100%;
   }
 
+  #foto_encants_3{
+    width: 100%;
+  }
+
+  #foto_encants_4{
+    width: 100%;
+  }
+
   #div_mapa{
     background-color: white;
     width: 100%;
@@ -400,6 +408,16 @@ src: url(font/SukhumvitSet-Bold.ttf);
     font-family: sukhumvitset-thin;
     margin: 0 20px;
     text-align: justify;
+  }
+
+  #codiQR{
+    height: 200px;
+    width: 200px;
+  }
+
+  #logoabout{
+    padding-left: 200px;
+    padding-bottom: 15px;
   }
 
   .enlaces{
